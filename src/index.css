@@ -10,6 +10,14 @@
     scroll-behavior: smooth;
     -webkit-tap-highlight-color: transparent;
   }
+
+  body {
+    @apply min-h-screen;
+  }
+
+  div#root {
+    @apply min-h-screen;
+  }
 }
 
 .reaction {
