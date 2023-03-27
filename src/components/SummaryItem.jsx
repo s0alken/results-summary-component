@@ -4,8 +4,9 @@ import iconReaction from "../assets/icon-reaction.svg";
 import iconMemory from "../assets/icon-memory.svg";
 import iconVerbal from "../assets/icon-verbal.svg";
 import iconVisual from "../assets/icon-visual.svg";
+import { childrenVariant } from "../utils";
 
-const SummaryItem = ({ item, variants }) => {
+const SummaryItem = ({ item }) => {
 
     const keys = {
         reaction: iconReaction,
@@ -17,7 +18,7 @@ const SummaryItem = ({ item, variants }) => {
     const icon = keys[item.category.toLowerCase()];
 
     return (
-        <motion.div variants={variants} className={`flex justify-between pt-[18px] px-[16px] pb-[17px] rounded-[12px] ${item.category.toLowerCase()}`}>
+        <motion.div /* variants={childrenVariant} */ className={`flex justify-between pt-[18px] px-[16px] pb-[17px] rounded-[12px] ${item.category.toLowerCase()}`}>
             <div className="flex gap-[12px] font-medium">
                 <img src={icon} alt={item.category} />
                 {item.category}

@@ -8,8 +8,8 @@ export const CounterUp = ({ from, to }) => {
     useEffect(() => {
 
         const controls = animate(from, to, {
-            delay: 1,
-            duration: 2,
+            delay: 0,
+            duration: 0,
             onUpdate(value) {
                 ref.current.textContent = Math.round(value);
             }
