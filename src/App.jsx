@@ -48,7 +48,7 @@ const App = () => {
           <div className='grid gap-[8px] md:gap-[14px] md:max-w-[260px] md:mx-auto'>
             <motion.h2 variants={childrenVariant} className='font-bold text-white text-[24px] leading-[31px] md:text-[32px] md:leading-[42px]'>Great</motion.h2>
             <motion.p variants={childrenVariant} className='font-medium text-light-lavender text-[16px] leading-[21px] md:text-[18px] md:leading-[23px]'>
-              Your performance exceed 65% of the people conducting the test here!
+              You scored higher than 65% of the people who have taken these tests.
             </motion.p>
           </div>
         </motion.div>
