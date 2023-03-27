@@ -30,7 +30,7 @@ const App = () => {
   }, []) */
 
   return (
-    <div className='flex justify-center min-h-screen bg-pale-blue'>
+    <main className='flex justify-center min-h-screen bg-pale-blue'>
 
       <motion.div
         className='flex-1 bg-white md:overflow-hidden md:self-center md:flex-[0_1_736px] md:flex md:shadow-[0px_30px_60px_rgba(61,108,236,0.15)] md:rounded-[32px]'
@@ -116,7 +116,7 @@ const App = () => {
 
         </motion.div>
       </motion.div>
-    </div>
+    </main>
   )
 }
 
